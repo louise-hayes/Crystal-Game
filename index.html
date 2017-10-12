@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>week-4-game crystals</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+
+            <div class="jumbotron">
+
+
+                <h2> Louise's Crystals Collector Game!</h2>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6" id="instructionsDiv">
+                <p>Some Instructions:</p>
+
+                <p> You will be given a Random Number at the start of the Game.
+                </p>
+                <p> THere are four crystals below. By clicking on a crystal you will add a specific number of points to your
+                    total score.
+                </p>
+                <p>You win the game by matching your total score to random number, you loose the game if your totalscore goes
+                    above the random number.
+
+                </p>
+                <p>
+                    The value of each crystal is hidden from you until you click on it.
+                </p>
+                <p>
+                    Each time when the game starts, the game will change the value of each crystal.
+                </p>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6" id="scorePanelDiv">
+
+                <div class="col-md-3" id="targetScoreDiv"></div>
+                <div class="col-md-3" id="countersDiv">
+                    <!-- scoreTitleDiv = "You Loose" or "You Win" or Blank to Start -->
+                    <div id="scoreTitleDiv"></div>
+                    <div id="winCounterDiv"></div>
+                    <div id="lossesCounterDiv"></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <!-- img button div onclick checkScore-->
+
+                <!-- <div id="imgCrystal" class="btn" button type="button" onclick="checkScore()"></button> -->
+                <div id="imgCrystal">
+                    </button>
+
+                </div>
+                <!-- <div id="crystalPinkDiv"> <img src="/assets/images/1-CrystalCollector.jpg" alt="1-CrystalCollector.jpg"></div>
+    <img id="crystalBlueDiv"> <img src="/assets/images/2-CrystalCollector.jpg" alt="1-CrystalCollector.jpg"></div>
+    <img id="crystalYellowDiv"> <img src="/assets/images/3-CrystalCollector.jpg" alt="1-CrystalCollector.jpg"></div>
+    <img id="crystalGreenDiv"> <img src="/assets/images/4-CrystalCollector.jpg" alt="1-CrystalCollector.jpg"></div> -->
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div id="totalScoreTitleDiv"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+
+                <div id="totalScoreNumberDiv"></div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <!-- End Container -->
+</body>
+<script src="assets/javascript/games.js"></script>
+
+</html>
