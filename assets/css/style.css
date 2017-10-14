@@ -48,6 +48,9 @@ body {
     
 }
 
+#countersTitleDiv{
+    
+}
 #countersDiv {
     background-color: lightblue;
     color: black;
@@ -57,7 +60,7 @@ body {
     padding: 10px;
     margin: 10px;
     height: 100px;
-    width:100px;
+    width:150px;
 }
 
 .crystalimageDiv {
